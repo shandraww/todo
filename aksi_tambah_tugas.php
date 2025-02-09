@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $query = "INSERT INTO tasks (title,deadline) VALUES ('$title','$date')";
     
     if ($mysqli->query($query)) {
-        header("Location: v_tambah_tugas2.php?message=Status tugas berhasil diperbarui");
+        header("Location: v_daftar_tugas.php?message=Status tugas berhasil diperbarui");
     } else {
         echo "Error: " . $mysqli->error;
     }

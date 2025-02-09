@@ -12,7 +12,7 @@
         ?>
     </select><br><br>
     
-    <label for="title">Judul Tugas:</label><br>
+    <!-- <label for="title">Judul Tugas:</label><br>
     <input type="text" id="title" name="title" required><br><br>
     
     <label for="description">Deskripsi Tugas:</label><br>
@@ -21,5 +21,5 @@
     <label for="deadline">Deadline:</label><br>
     <input type="datetime-local" id="deadline" name="deadline"><br><br>
     
-    <input type="submit" value="Tambah Tugas">
+    <input type="submit" value="Tambah Tugas"> -->
 </form>
